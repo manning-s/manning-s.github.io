@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://manning-s.github.io</id>
     <title>Manning&apos;s Life</title>
-    <updated>2020-03-10T08:53:17.227Z</updated>
+    <updated>2020-03-10T08:54:54.012Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://manning-s.github.io"/>
     <link rel="self" href="https://manning-s.github.io/atom.xml"/>
@@ -10,4 +10,13 @@
     <logo>https://manning-s.github.io/images/avatar.png</logo>
     <icon>https://manning-s.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Manning&apos;s Life</rights>
+    <entry>
+        <title type="html"><![CDATA[历史]]></title>
+        <id>https://manning-s.github.io/post/2011-09-19-lishi/</id>
+        <link href="https://manning-s.github.io/post/2011-09-19-lishi/">
+        </link>
+        <updated>2011-09-18T03:57:00.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://toshaojin.files.wordpress.com/2011/09/tumblr_lrpvvmnl011r311ono1_640.jpg" alt="" width="612" height="612" class="alignnone size-full wp-image-1117" /><p>早期台湾海漂至大陆的宣传品，现在看看感觉很有爱  (Taken with <a href="http://instagr.am" target="_blank">instagram</a>)</p></p>
+]]></content>
+    </entry>
 </feed>
