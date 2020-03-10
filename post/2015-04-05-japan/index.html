@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+<meta charset="utf-8" >
+
+<title>樱花季节 | Manning&#39;s Life</title>
+<meta name="description" content="点滴生活">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://manning-s.github.io/favicon.ico?v=1583854033407">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://manning-s.github.io/styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://manning-s.github.io">
+        <img class="avatar" src="https://manning-s.github.io/images/avatar.png?v=1583854033407" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://manning-s.github.io">
+        <h1 class="site-title">Manning&#39;s Life</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">樱花季节</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2015-04-05</span>
+            
+          </div>
+          <div class="post-content">
+            <img src="https://toshaojin.files.wordpress.com/2015/04/tumblr_nmb6v4ffmd1r311ono1_640.jpg" alt="" width="640" height="640" class="alignnone size-full wp-image-414" />
+<img src="https://toshaojin.files.wordpress.com/2015/04/tumblr_nmb6vavp8p1r311ono1_640.jpg" alt="" width="640" height="640" class="alignnone size-full wp-image-399" />
+<img src="https://toshaojin.files.wordpress.com/2015/04/tumblr_nmb6v6wzxs1r311ono1_640.jpg" alt="" width="640" height="640" class="alignnone size-full wp-image-408" />
+<img src="https://toshaojin.files.wordpress.com/2015/04/tumblr_nmb6v2hqzj1r311ono1_640.jpg" alt="" width="640" height="640" class="alignnone size-full wp-image-420" />
+<img src="https://toshaojin.files.wordpress.com/2015/04/tumblr_nmb6v3s7cz1r311ono1_640.jpg" alt="" width="640" height="640" class="alignnone size-full wp-image-417" />
+<img src="https://toshaojin.files.wordpress.com/2015/04/tumblr_nmd7uimmkg1r311ono1_640.jpg" alt="" width="640" height="640" class="alignnone size-full wp-image-396" />
+<img src="https://toshaojin.files.wordpress.com/2015/04/tumblr_nmh6ygvk6l1r311ono1_640.jpg" alt="" width="640" height="640" class="alignnone size-full wp-image-360" />
+<img src="https://toshaojin.files.wordpress.com/2015/04/tumblr_nmh4m4dhnz1r311ono1_640.jpg" alt="" width="640" height="640" class="alignnone size-full wp-image-372" />
+          </div>
+        </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://manning-s.github.io/post/2015-02-08-2a/">
+              <h3 class="post-title">
+                下一篇：不在的年夜饭
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+
+      <div class="site-footer">
+  <div class="slogan">点滴生活</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://manning-s.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>

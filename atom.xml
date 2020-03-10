@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://manning-s.github.io</id>
     <title>Manning&apos;s Life</title>
-    <updated>2020-03-10T15:01:21.558Z</updated>
+    <updated>2020-03-10T15:27:21.353Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://manning-s.github.io"/>
     <link rel="self" href="https://manning-s.github.io/atom.xml"/>
@@ -11,114 +11,96 @@
     <icon>https://manning-s.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Manning&apos;s Life</rights>
     <entry>
-        <title type="html"><![CDATA[兰花指]]></title>
-        <id>https://manning-s.github.io/post/hand/</id>
-        <link href="https://manning-s.github.io/post/hand/">
+        <title type="html"><![CDATA[Friends]]></title>
+        <id>https://manning-s.github.io/post/2018-09-02-friends/</id>
+        <link href="https://manning-s.github.io/post/2018-09-02-friends/">
         </link>
-        <updated>2012-04-20T18:32:00.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://toshaojin.files.wordpress.com/2012/04/tumblr_m2t45xwxeh1r311ono1_640.jpg" alt="" width="612" height="612" class="alignnone size-full wp-image-857" /><p>小小兰花指 (使用<a href="http://instagr.am" target="_blank">instagram</a>拍摄)</p></p>
+        <updated>2018-09-01T18:32:00.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://toshaojin.files.wordpress.com/2018/09/tumblr_peexa6pqp21r311ono1_1280.jpg" alt="" width="660" height="495" class="alignnone size-full wp-image-68" /><p>两小无猜<br /><br>
+<a href="https://www.instagram.com/p/BnNi1ztlv4s/?utm_source=ig_tumblr_share&amp;igshid=x6qgp0dwabwb" target="_blank">https://www.instagram.com/p/BnNi1ztlv4s/?utm_source=ig_tumblr_share&amp;igshid=x6qgp0dwabwb</a></p></p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[小脚丫]]></title>
-        <id>https://manning-s.github.io/post/foot/</id>
-        <link href="https://manning-s.github.io/post/foot/">
+        <title type="html"><![CDATA[see]]></title>
+        <id>https://manning-s.github.io/post/2018-09-02-sea/</id>
+        <link href="https://manning-s.github.io/post/2018-09-02-sea/">
         </link>
-        <updated>2012-04-18T18:32:00.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://toshaojin.files.wordpress.com/2012/04/tumblr_m2q3sypjue1r311ono1_640.jpg" alt="" width="612" height="612" class="alignnone size-full wp-image-860" /><p>小脚丫 (使用<a href="http://instagr.am" target="_blank">instagram</a>拍摄)</p></p>
+        <updated>2018-09-01T18:32:00.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://toshaojin.files.wordpress.com/2018/09/tumblr_pef8vk4qmi1r311ono1_1280.jpg" alt="" width="660" height="825" class="alignnone size-full wp-image-65" /><p>大海<br /><br>
+<a href="https://www.instagram.com/p/BnN_gu7Fxx8/?utm_source=ig_tumblr_share&amp;igshid=1fmfuo6yde2co" target="_blank">https://www.instagram.com/p/BnN_gu7Fxx8/?utm_source=ig_tumblr_share&amp;igshid=1fmfuo6yde2co</a></p></p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[养孩子的问题]]></title>
-        <id>https://manning-s.github.io/post/2012-03-21-baby/</id>
-        <link href="https://manning-s.github.io/post/2012-03-21-baby/">
+        <title type="html"><![CDATA[sanya]]></title>
+        <id>https://manning-s.github.io/post/2018-08-23-sanya/</id>
+        <link href="https://manning-s.github.io/post/2018-08-23-sanya/">
         </link>
-        <updated>2012-03-21T05:28:00.000Z</updated>
-        <content type="html"><![CDATA[<p>长辈与晚辈关于养孩子的争议问题总结：</p>
-<p>1.月子里的小孩要不要包被，或者说能不能穿裤子；</p>
-<p>2.月子里的小孩应不应该洗澡的问题；</p>
-<p>3.月子里的小孩应该捂热点吗？</p>
-<p>4.月子里的小孩要不要绑腿？</p>
-<p>顺带产妇问题：</p>
-<p>1.月子里能不能下床；</p>
-<p>2.月子里能不能洗澡；</p>
-<p>3.月子里能不能剪指甲。</p>
+        <updated>2018-08-22T18:32:00.000Z</updated>
+        <content type="html"><![CDATA[<img src="https://toshaojin.files.wordpress.com/2018/08/tumblr_pdx6njltea1r311ono1_1280.jpg" alt="" width="660" height="495" class="alignnone size-full wp-image-83" />
+<img src="https://toshaojin.files.wordpress.com/2018/08/tumblr_pdwfwpghwf1r311ono1_1280.jpg" alt="" width="660" height="495" class="alignnone size-full wp-image-95" />
+<img src="https://toshaojin.files.wordpress.com/2018/08/tumblr_pdx6h8cgiq1r311ono1_1280.jpg" alt="" width="660" height="660" class="alignnone size-full wp-image-86" />]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[成长]]></title>
+        <id>https://manning-s.github.io/post/2018-03-26-growup/</id>
+        <link href="https://manning-s.github.io/post/2018-03-26-growup/">
+        </link>
+        <updated>2018-03-25T18:32:00.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://toshaojin.files.wordpress.com/2018/03/tumblr_p67c6blnfq1r311ono1_1280.jpg" alt="" width="660" height="660" class="alignnone size-full wp-image-99" /><p>长大后，你会成为怎样的你？</p></p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[宝宝]]></title>
-        <id>https://manning-s.github.io/post/2012-03-21-baby1/</id>
-        <link href="https://manning-s.github.io/post/2012-03-21-baby1/">
+        <title type="html"><![CDATA[朋友]]></title>
+        <id>https://manning-s.github.io/post/2018-02-06-108/</id>
+        <link href="https://manning-s.github.io/post/2018-02-06-108/">
         </link>
-        <updated>2012-03-21T04:58:00.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://toshaojin.files.wordpress.com/2012/03/tumblr_m18k0zezcr1r311ono1_1280.jpg" alt="" width="660" height="884" class="alignnone size-full wp-image-946" /><p>宝宝第八日，和妈妈一起</p></p>
+        <updated>2018-02-05T18:32:00.000Z</updated>
+        <content type="html"><![CDATA[<img src="https://toshaojin.files.wordpress.com/2018/02/tumblr_p3pk1m8h6j1r311ono1_1280.jpg" alt="" width="660" height="659" class="alignnone size-full wp-image-109" />
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[月子]]></title>
-        <id>https://manning-s.github.io/post/2012-03-21-birth/</id>
-        <link href="https://manning-s.github.io/post/2012-03-21-birth/">
+        <title type="html"><![CDATA[这里曾经记录了很多]]></title>
+        <id>https://manning-s.github.io/post/2017-08-14-fish/</id>
+        <link href="https://manning-s.github.io/post/2017-08-14-fish/">
         </link>
-        <updated>2012-03-21T04:58:00.000Z</updated>
-        <content type="html"><![CDATA[<p>2012.3.16，出院第二天，宝宝出生第六天。</p>
-<p>出院那天的悲摧晚上，让我们下定决心第二天找一个月嫂，结果这个月嫂第三天就走了，因为预定的孕妇提前临产了。</p>
+        <updated>2017-08-13T18:32:00.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://toshaojin.files.wordpress.com/2017/08/tumblr_ouo1lqgpba1r311ono1_1280.jpg" alt="" width="660" height="440" class="alignnone size-full wp-image-143" /><p>这里曾经记录了很多</p></p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[火龙果出生第二天]]></title>
-        <id>https://manning-s.github.io/post/2012-03-11-birth/</id>
-        <link href="https://manning-s.github.io/post/2012-03-11-birth/">
+        <title type="html"><![CDATA[旅游后遗症]]></title>
+        <id>https://manning-s.github.io/post/2017-08-18/</id>
+        <link href="https://manning-s.github.io/post/2017-08-18/">
         </link>
-        <updated>2012-03-11T02:46:00.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://66.media.tumblr.com/tumblr_m18ga12GLq1r0oosk.jpg" /></p>
-<p><img src="https://66.media.tumblr.com/tumblr_m18gbuh6fX1r0oosk.jpg" /></p>
+        <updated>2017-08-13T18:32:00.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://toshaojin.files.wordpress.com/2017/08/tumblr_ouvlb2czku1r311ono1_1280.jpg" alt="" width="660" height="495" class="alignnone size-full wp-image-136" /><p>越南旅游后遗症</p></p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[2012]]></title>
-        <id>https://manning-s.github.io/post/2012-01-04-2012/</id>
-        <link href="https://manning-s.github.io/post/2012-01-04-2012/">
+        <title type="html"><![CDATA[together]]></title>
+        <id>https://manning-s.github.io/post/2017-08-12-160/</id>
+        <link href="https://manning-s.github.io/post/2017-08-12-160/">
         </link>
-        <updated>2012-01-04T02:46:00.000Z</updated>
-        <content type="html"><![CDATA[<p>2012的第一天，从一场葬礼开始；2012的第一个工作日，从一个案子开始。</p>
+        <updated>2017-08-11T18:32:00.000Z</updated>
+        <content type="html"><![CDATA[<img src="https://toshaojin.files.wordpress.com/2017/08/tumblr_oujz7l6yew1r311ono1_1280.jpg" alt="" width="660" height="480" class="alignnone size-full wp-image-161" />
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[斯人已去]]></title>
-        <id>https://manning-s.github.io/post/2012-01-03-death/</id>
-        <link href="https://manning-s.github.io/post/2012-01-03-death/">
+        <title type="html"><![CDATA[天坑]]></title>
+        <id>https://manning-s.github.io/post/2016-05-08-hole/</id>
+        <link href="https://manning-s.github.io/post/2016-05-08-hole/">
         </link>
-        <updated>2012-01-02T22:50:00.000Z</updated>
-        <content type="html"><![CDATA[<p>老师的先生在2011年12月30日晚走了，走得如此匆匆，都没有看到新的一年来临。</p>
-<p>记得两个多月前，还跟他一起打过台球，看不出任何异样，而现在却已西去。44岁，正值当打之年，事业有成，妻子贤惠，女儿乖巧，本该是如此幸福的，却遭致如此变故。</p>
-<p>发现，周围越来越多的人因为癌症去世，各种年龄的，各种类型的。虽无直接证据，但是心里明白，显然是现在大陆的糟糕环境造成的。糟糕的空气，糟糕的食物，三聚氰胺牛奶、地沟油、毒豆芽、染色馒头……。</p>
-<p>Fuck China！</p>
+        <updated>2016-05-07T18:32:00.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://toshaojin.files.wordpress.com/2016/05/tumblr_o6uxu4dlii1r311ono1_1280.jpg" alt="" width="660" height="438" class="alignnone size-full wp-image-214" /><p><a href="http://bit.ly/1s4Pk5Q" target="_blank">http://bit.ly/1s4Pk5Q</a></p></p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[麻烦的案子（续）]]></title>
-        <id>https://manning-s.github.io/post/2011-12-07-case/</id>
-        <link href="https://manning-s.github.io/post/2011-12-07-case/">
+        <title type="html"><![CDATA[帝国大厦]]></title>
+        <id>https://manning-s.github.io/post/2016-04-24-tower/</id>
+        <link href="https://manning-s.github.io/post/2016-04-24-tower/">
         </link>
-        <updated>2011-12-07T02:52:00.000Z</updated>
-        <content type="html"><![CDATA[<p>第一次开庭结束，只进行到质证结束。</p>
-<p>从开庭的过程来看，对方确认了我们支付保证金及第一期租金的事实，也承担此前反诉请求不当，并当庭进行了修正。而且也承担，涉案房屋现有用水来源于案外人天源公司，而非自身消防设备。但是仍坚持现在房屋已经具备提供消防用水的条件。</p>
-<p>我方重申起诉要求解除合同的根本理由在于被告交付的房屋不符合消防安全，具体是指不能提供消防水泵、泵房及消防用水。而目前房屋内的消防用水来源于案外人，被告并无使用权，我方也无使用权，而且即便有水，我方仍需要消防水泵及消防泵房。这些设备缺一不可，否则无法通过消防验收。对此，我方提供了具有资质的消防检测公司的检测报告，明确指明需要消防水泵及泵房。</p>
-<p>在庭审过程中，主审法官私下跟我说，双方的解除理由及赔偿请求均得不到法院支持。说，此前天一广场有大批租赁纠纷案，跟本案情形基本相符，即消防验收通不过所引起的租赁纠纷。而且，提供作为承租人的我方在本案中的合同注意义务，认为我们在租赁前没有核实消防设备而直接装修，由此产生的损失应当由我们自行承担。对此，我方直接指出，作为承租人的注意义务到核实房屋产权证为止，因为作为普通老百姓当然认为具备房产证的房屋在工程验收时当然通过消防验收，因此肯定具备消防设备。这是行政机关行政许可或登记行为的确信。承租人在确认出租人具备房产证后，即相信该房屋具有消防设备。相反，被告作为出租人，对自有房屋的状况显然更为清楚，无论是依据合同法诚实信用原则，还是如实告知义务，其均应当将该房屋不具备消防设备的真实状况告知原告，但其并没有。显然应承担全部赔偿责任。</p>
-<p>我认为，主审法官对于我方作为承租人所应承担的注意义务的见解，显然过于苛求承租人，而视出租人的合同义务与不顾。即便承租人未尽到注意义务，也只是较小的过错，相比较被告的重大过错，显然可忽略。同时，被告在收到原告多次催告后一直没有使房屋符合消防安全，显然构成根本违约。</p>
-<p>质证结束后，法院以相关证据需要向有关人员及政府消防机构核实为由休庭。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[麻烦的案子]]></title>
-        <id>https://manning-s.github.io/post/2011-12-03-case/</id>
-        <link href="https://manning-s.github.io/post/2011-12-03-case/">
-        </link>
-        <updated>2011-12-03T04:00:00.000Z</updated>
-        <content type="html"><![CDATA[<p>老师有事离开后，留下的一个租赁案件较为麻烦，虽然老师明确告知我们只需负责程序问题，至于实体问题自然有人负责。但是，我还是希望尽自己的努力，为当事人争取利益。</p>
-<p>这个案子属于租赁纠纷，实质关键在于我方承租人解除合同的理由，即出租人房屋不具备消防安全条件，能够成立。有利于我方的是，涉案房屋本身没有消防水池、消防泵及泵房，自身不可能提供消防水源，这是出租人无法改变的现实；不利的地方在于，同为承租人的案外人通过了消防检查，而其使用之消防水来源于隔壁一幢房屋，租用该房屋的消防泵房及用水设备。</p>
-<p>鉴于目前涉案房屋内有水，在案前与法官的沟通中了解到，法官比较希望合同能够继续履行下去，这样对法官来说案件比较好调解或好判，而对于双方来说也是把损失降低到最低。事后，跟当事人沟通这一问题，当事人较为抵触这一方案，决心解除合同，不愿继续履行。</p>
-<p>当事人的这一态度，也迫使我要破解上述难题：一方面要着重强调，出租人的房屋本身是没有消防联动设备的，也须迫使对方承认这一点。至于，目前出租人是否通过其他途径使得房屋有消防水源那是另一层次的问题；另一方面，我方也要强调现有房屋消防用水的来源问题。这一消防用水的来源，是案外人租来的，出租人并无使用权，而我方更无权使用。总之，只需让法官确信，承租人无法取得消防联动设备即可。</p>
+        <updated>2016-04-23T18:32:00.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://toshaojin.files.wordpress.com/2016/04/tumblr_o64prsyilz1r311ono1_1280.jpg" alt="" width="660" height="660" class="alignnone size-full wp-image-281" /><p>帝国大厦 <a href="http://bit.ly/219OqAM" target="_blank">http://bit.ly/219OqAM</a></p></p>
 ]]></content>
     </entry>
 </feed>
