@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://manning-s.github.io</id>
     <title>Manning&apos;s Life</title>
-    <updated>2020-03-13T03:54:59.885Z</updated>
+    <updated>2020-03-13T03:57:19.636Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://manning-s.github.io"/>
     <link rel="self" href="https://manning-s.github.io/atom.xml"/>
@@ -16,16 +16,11 @@
         <link href="https://manning-s.github.io/post/2020-03-11githubpage/">
         </link>
         <updated>2020-03-11T12:40:00.000Z</updated>
-        <summary type="html"><![CDATA[<h1 id="历史">历史</h1>
+        <content type="html"><![CDATA[<!-- more -->
+<h1 id="历史">历史</h1>
 <p>很早之前就尝试过博客，但是自己是个钢铁工科男，写不了生活。</p>
 <p>模糊记得曾经玩过WordPress、Google Blogger，还利用免费的VPS搭建过WordPress，反正那时有的是时间、各种折腾着玩。后来，这些都是荒废的，因为不习惯于码字长文，于是经常在玩的也就是Twitter、Instagram、Foursquare等社交类app，以及可以串联这些服务的Tumblr。</p>
 <p>近期觉得Tumblr此前被廉价出售，会不会服务停摆。于是，就想着把Tumblr的文章导出来。</p>
-]]></summary>
-        <content type="html"><![CDATA[<h1 id="历史">历史</h1>
-<p>很早之前就尝试过博客，但是自己是个钢铁工科男，写不了生活。</p>
-<p>模糊记得曾经玩过WordPress、Google Blogger，还利用免费的VPS搭建过WordPress，反正那时有的是时间、各种折腾着玩。后来，这些都是荒废的，因为不习惯于码字长文，于是经常在玩的也就是Twitter、Instagram、Foursquare等社交类app，以及可以串联这些服务的Tumblr。</p>
-<p>近期觉得Tumblr此前被廉价出售，会不会服务停摆。于是，就想着把Tumblr的文章导出来。</p>
-<!-- more -->
 <h1 id="gridea-和-github-page">Gridea 和 GitHub Page</h1>
 <p>很早看到利用GitHub Page来创建个人博客的各类技术类文章，但每每看到命令行操作，就望而却步，所以一直没尝试。</p>
 <p>最近发现一个软件，很适合我这种小白──<a href="https://gridea.dev/">Gridea</a>。官网有快速上手指引文档，非常方便。当然还有其他人写的一些指引文章：</p>
