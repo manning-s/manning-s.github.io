@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+<meta charset="utf-8" >
+
+<title>再一次尝试博客 | Manning&#39;s Life</title>
+<meta name="description" content="点滴生活">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://manning-s.github.io/favicon.ico?v=1584071692358">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://manning-s.github.io/styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://manning-s.github.io">
+        <img class="avatar" src="https://manning-s.github.io/images/avatar.png?v=1584071692358" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://manning-s.github.io">
+        <h1 class="site-title">Manning&#39;s Life</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">再一次尝试博客</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2020-03-11</span>
+            
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://manning-s.github.io/tag/RhXtKnbY_/">
+                    博客
+                    
+                      ，
+                    
+                  </a>
+                
+                  <a href="https://manning-s.github.io/tag/Q8ZgMYXiga/">
+                    Github page
+                    
+                      ，
+                    
+                  </a>
+                
+                  <a href="https://manning-s.github.io/tag/e9yf0zJTz/">
+                    Gridea
+                    
+                  </a>
+                
+              </span>
+            
+          </div>
+          <div class="post-content">
+            <h1 id="历史">历史</h1>
+<p>很早之前就尝试过博客，但是自己是个钢铁工科男，写不了生活。</p>
+<p>模糊记得曾经玩过WordPress、Google Blogger，还利用免费的VPS搭建过WordPress，反正那时有的是时间、各种折腾着玩。后来，这些都是荒废的，因为不习惯于码字长文，于是经常在玩的也就是Twitter、Instagram、Foursquare等社交类app，以及可以串联这些服务的Tumblr。</p>
+<p>近期觉得Tumblr此前被廉价出售，会不会服务停摆。于是，就想着把Tumblr的文章导出来。</p>
+<!-- more -->
+<h1 id="gridea-和-github-page">Gridea 和 GitHub Page</h1>
+<p>很早看到利用GitHub Page来创建个人博客的各类技术类文章，但每每看到命令行操作，就望而却步，所以一直没尝试。</p>
+<p>最近发现一个软件，很适合我这种小白──<a href="https://gridea.dev/">Gridea</a>。官网有快速上手指引文档，非常方便。当然还有其他人写的一些指引文章：</p>
+<ul>
+<li><a href="https://sspai.com/post/54212">Gridea 让你更方便地管理 Github Pages</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/71681116">Gridea 上手教程——小白也可以用的 GitHub Pages 搭建工具</a></li>
+</ul>
+<p>配置完成后，就可以利用Gridea来发布文章了。</p>
+<figure data-type="image" tabindex="1"><img src="https://i.loli.net/2020/03/12/X5Eb9qTxsCMo8tf.png" alt="" loading="lazy"></figure>
+<h1 id="迁移">迁移</h1>
+<p>因为之前折腾过好几个博客，搭建还算顺利。每次折腾都会涉及到文章迁移问题，虽然有实质内容的文章其实并不多，毕竟文字功底较差，没东西写得出来。</p>
+<p>目前大部分记录日常生活的内容都留在Tumblr，包括一些通过IFTTT、foursquare、Twitter、Instagram等app同步的内容。怎么将这些内容方便的迁移到GitHub Page是一个问题。</p>
+<p>通过谷歌搜索，发现能从Tumblr直接迁移GitHub Page的工具几乎没有，难道要一个个手动导入？考虑到Gridea通过将MarkDown文档直接复制到posts文件夹可以直接导入文章。那么Tumblr是否能将文章导出为MarkDown文档呢？然而不可以，Tumblr导出的是xml格式的备份。如果Tumblr不行，Tumblr──Wordpress──MarkDown路径是否可行呢？可行，但是Wordpress需要安装专用插件，而安装插件需要收费。最后，兜兜转转，找到一个工具，xml转MarkDown的工具<a href="https://github.com/theaob/wpXml2Jekyll/releases">wpXml2Jekyll</a>。</p>
+<p>将转换完成后的MarkDown文档复制至Gridea的posts文件夹后，重新启动Gridea发现首页会一片空白、原有设置会全部消失。琢磨了很久应该是导入文档不匹配的问题，最终还是需要手动一个个修改MarkDown文档的信息头来解决这个问题，必须按照Gridea的MarkDown文档来。</p>
+<pre><code>title: '再一次尝试博客' //文章标的
+date: 2020-03-11 20:40:00 //文章日期
+tags: [博客,Github page,Gridea] //Gridea只支持tag
+published: true //是否发布
+hideInList: false //是否在列表中隐藏
+feature: 
+isTop: false  //是否置顶
+</code></pre>
+<p>所以，一个个手动用Typora修改文档，然后顺便回顾了以下以前的记录，也是好玩的，顺便把一些无关的Twitter推文和Instagram图片删除了。修改完成后，再将文档复制到posts文件夹后，重启Gridea就正常了。</p>
+<h1 id="域名">域名</h1>
+<p>是否要买一个域名？这是个问题。虽然目前自带域名*.github.io这个域名已经够短，但是看起来总有点别扭。一直想要个自己的域名，可如果发挥不了它的作用也有点浪费吧？之前有用过免费的tk域名，貌似也不错。</p>
+<p>在<a href="https://www.namesilo.com/">namesilo</a>找了几个域名，com太贵，me不错。</p>
+<p>有句话，免费的往往是最贵的。之前用过一个tk域名，后来发现被别人注册了，域名商能随时收回免费域名。所以在写这篇文章的过程中，最终在<a href="https://www.namesilo.com/">namesilo</a>入手了**“shaojin.me”**域名。中间，设置域名搞了很久，很久没玩一下子搞不清怎么设置后台了。</p>
+<h1 id="能坚持多久">能坚持多久？</h1>
+<p>鬼知道能坚持多久!说不定搞定这些东西，发现学到了什么，而写文章从来不是什么重点，第二天就束之高阁。</p>
+
+          </div>
+        </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://manning-s.github.io/post/2018-09-02-friends/">
+              <h3 class="post-title">
+                下一篇：Friends
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+
+      <div class="site-footer">
+  <div class="slogan">点滴生活</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://manning-s.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>
