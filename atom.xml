@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://manning-s.github.io</id>
     <title>Manning&apos;s Life</title>
-    <updated>2020-03-16T14:12:16.340Z</updated>
+    <updated>2020-03-16T14:15:55.958Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://manning-s.github.io"/>
     <link rel="self" href="https://manning-s.github.io/atom.xml"/>
@@ -17,13 +17,11 @@
         </link>
         <updated>2020-03-16T12:50:00.000Z</updated>
         <summary type="html"><![CDATA[<p>今天打开MacBook，发现部分键盘上都“长”出了一个个“泡泡”。第一反应是不是自己最近用什么腐蚀性液体擦过？</p>
-<p>但是印象中也只有用湿巾纸擦过键盘⌨️，为了去手指油污，这总不至于腐蚀吧？</p>
-<p>于是，Google了一下，发现都没有这个质量瑕疵问题。唯一的找到是豆瓣上的<a href="https://www.douban.com/group/topic/105776693/">《百思不得其解：Macbook送修后键盘起泡》</a>，作者的键盘症状跟我的一毛一样，而正好我也之前为了修屏幕去过天才吧待了一周。难道真的是因为维修造成的？</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>今天打开MacBook，发现部分键盘上都“长”出了一个个“泡泡”。第一反应是不是自己最近用什么腐蚀性液体擦过？</p>
+<!-- more -->
 <p>但是印象中也只有用湿巾纸擦过键盘⌨️，为了去手指油污，这总不至于腐蚀吧？</p>
 <p>于是，Google了一下，发现都没有这个质量瑕疵问题。唯一的找到是豆瓣上的<a href="https://www.douban.com/group/topic/105776693/">《百思不得其解：Macbook送修后键盘起泡》</a>，作者的键盘症状跟我的一毛一样，而正好我也之前为了修屏幕去过天才吧待了一周。难道真的是因为维修造成的？</p>
-<!-- more -->
 <p>直到看了这个答复</p>
 <blockquote>
 <p>我的也这样，手湿着打字，没擦干就合上屏幕了，早上起来就这样了，哭了</p>
