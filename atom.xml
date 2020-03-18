@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://manning-s.github.io</id>
     <title>Manning&apos;s Life</title>
-    <updated>2020-03-16T14:22:49.856Z</updated>
+    <updated>2020-03-18T03:52:26.571Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://manning-s.github.io"/>
     <link rel="self" href="https://manning-s.github.io/atom.xml"/>
@@ -19,19 +19,6 @@
         <summary type="html"><![CDATA[<p>今天打开MacBook，发现部分键盘上都“长”出了一个个“泡泡”。第一反应是不是自己最近用什么腐蚀性液体擦过？</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>今天打开MacBook，发现部分键盘上都“长”出了一个个“泡泡”。第一反应是不是自己最近用什么腐蚀性液体擦过？</p>
-<!-- more -->
-<p>但是印象中也只有用湿巾纸擦过键盘⌨️，为了去手指油污，这总不至于腐蚀吧？</p>
-<p>于是，Google了一下，发现都没有这个质量瑕疵问题。唯一的找到是豆瓣上的<a href="https://www.douban.com/group/topic/105776693/">《百思不得其解：Macbook送修后键盘起泡》</a>，作者的键盘症状跟我的一毛一样，而正好我也之前为了修屏幕去过天才吧待了一周。难道真的是因为维修造成的？</p>
-<p>直到看了这个答复</p>
-<blockquote>
-<p>我的也这样，手湿着打字，没擦干就合上屏幕了，早上起来就这样了，哭了</p>
-</blockquote>
-<p>我突然想起来，前次合起来的时候，为了保护屏幕，在键盘上盖了眼镜布，而眼镜布放在桌上有点弄湿了。恍然大悟!真的是，弄巧成拙。</p>
-<p>而我因为一开始看到症状以为是什么脏东西，使劲用指甲扣了一下，还真抠出“水”，结果把表面的漆弄坏了，导致有几个键非常难看。</p>
-<p>有什么解决办法吗？</p>
-<p><strong>有!</strong></p>
-<p><strong>把键盘晾一会儿，或吹风机水一下，水泡会消失。</strong></p>
-<p>TMD自愈型。</p>
 ]]></content>
     </entry>
     <entry>
@@ -40,41 +27,6 @@
         <link href="https://manning-s.github.io/post/2020-03-11githubpage/">
         </link>
         <updated>2020-03-11T12:40:00.000Z</updated>
-        <content type="html"><![CDATA[<!-- more -->
-<h1 id="历史">历史</h1>
-<p>很早之前就尝试过博客，但是自己是个钢铁工科男，写不了生活。</p>
-<p>模糊记得曾经玩过WordPress、Google Blogger，还利用免费的VPS搭建过WordPress，反正那时有的是时间、各种折腾着玩。后来，这些都是荒废的，因为不习惯于码字长文，于是经常在玩的也就是Twitter、Instagram、Foursquare等社交类app，以及可以串联这些服务的Tumblr。</p>
-<p>近期觉得Tumblr此前被廉价出售，会不会服务停摆。于是，就想着把Tumblr的文章导出来。</p>
-<h1 id="gridea-和-github-page">Gridea 和 GitHub Page</h1>
-<p>很早看到利用GitHub Page来创建个人博客的各类技术类文章，但每每看到命令行操作，就望而却步，所以一直没尝试。</p>
-<p>最近发现一个软件，很适合我这种小白──<a href="https://gridea.dev/">Gridea</a>。官网有快速上手指引文档，非常方便。当然还有其他人写的一些指引文章：</p>
-<ul>
-<li><a href="https://sspai.com/post/54212">Gridea 让你更方便地管理 Github Pages</a></li>
-<li><a href="https://zhuanlan.zhihu.com/p/71681116">Gridea 上手教程——小白也可以用的 GitHub Pages 搭建工具</a></li>
-</ul>
-<p>配置完成后，就可以利用Gridea来发布文章了。</p>
-<figure data-type="image" tabindex="1"><img src="https://i.loli.net/2020/03/12/X5Eb9qTxsCMo8tf.png" alt="" loading="lazy"></figure>
-<h1 id="迁移">迁移</h1>
-<p>因为之前折腾过好几个博客，搭建还算顺利。每次折腾都会涉及到文章迁移问题，虽然有实质内容的文章其实并不多，毕竟文字功底较差，没东西写得出来。</p>
-<p>目前大部分记录日常生活的内容都留在Tumblr，包括一些通过IFTTT、foursquare、Twitter、Instagram等app同步的内容。怎么将这些内容方便的迁移到GitHub Page是一个问题。</p>
-<p>通过谷歌搜索，发现能从Tumblr直接迁移GitHub Page的工具几乎没有，难道要一个个手动导入？考虑到Gridea通过将MarkDown文档直接复制到posts文件夹可以直接导入文章。那么Tumblr是否能将文章导出为MarkDown文档呢？然而不可以，Tumblr导出的是xml格式的备份。如果Tumblr不行，Tumblr──Wordpress──MarkDown路径是否可行呢？可行，但是Wordpress需要安装专用插件，而安装插件需要收费。最后，兜兜转转，找到一个工具，xml转MarkDown的工具<a href="https://github.com/theaob/wpXml2Jekyll/releases">wpXml2Jekyll</a>。</p>
-<p>将转换完成后的MarkDown文档复制至Gridea的posts文件夹后，重新启动Gridea发现首页会一片空白、原有设置会全部消失。琢磨了很久应该是导入文档不匹配的问题，最终还是需要手动一个个修改MarkDown文档的信息头来解决这个问题，必须按照Gridea的MarkDown文档来。</p>
-<pre><code>title: '再一次尝试博客' //文章标的
-date: 2020-03-11 20:40:00 //文章日期
-tags: [博客,Github page,Gridea] //Gridea只支持tag
-published: true //是否发布
-hideInList: false //是否在列表中隐藏
-feature: 
-isTop: false  //是否置顶
-</code></pre>
-<p>所以，一个个手动用Typora修改文档，然后顺便回顾了以下以前的记录，也是好玩的，顺便把一些无关的Twitter推文和Instagram图片删除了。修改完成后，再将文档复制到posts文件夹后，重启Gridea就正常了。</p>
-<h1 id="域名">域名</h1>
-<p>是否要买一个域名？这是个问题。虽然目前自带域名*.github.io这个域名已经够短，但是看起来总有点别扭。一直想要个自己的域名，可如果发挥不了它的作用也有点浪费吧？之前有用过免费的tk域名，貌似也不错。</p>
-<p>在<a href="https://www.namesilo.com/">namesilo</a>找了几个域名，com太贵，me不错。</p>
-<p>有句话，免费的往往是最贵的。之前用过一个tk域名，后来发现被别人注册了，域名商能随时收回免费域名。所以在写这篇文章的过程中，最终在<a href="https://www.namesilo.com/">namesilo</a>入手了<strong>shaojin.me</strong>域名。中间，设置域名搞了很久，很久没玩一下子搞不清怎么设置后台了。</p>
-<h1 id="能坚持多久">能坚持多久？</h1>
-<p>鬼知道能坚持多久!说不定搞定这些东西，发现学到了什么，而写文章从来不是什么重点，第二天就束之高阁。</p>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Friends]]></title>
@@ -82,9 +34,6 @@ isTop: false  //是否置顶
         <link href="https://manning-s.github.io/post/2018-09-02-friends/">
         </link>
         <updated>2018-09-01T18:32:00.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://toshaojin.files.wordpress.com/2018/09/tumblr_peexa6pqp21r311ono1_1280.jpg" alt="" width="660" height="495" class="alignnone size-full wp-image-68" /><p>两小无猜<br /><br>
-<a href="https://www.instagram.com/p/BnNi1ztlv4s/?utm_source=ig_tumblr_share&amp;igshid=x6qgp0dwabwb" target="_blank">https://www.instagram.com/p/BnNi1ztlv4s/?utm_source=ig_tumblr_share&amp;igshid=x6qgp0dwabwb</a></p></p>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[see]]></title>
@@ -92,9 +41,6 @@ isTop: false  //是否置顶
         <link href="https://manning-s.github.io/post/2018-09-02-sea/">
         </link>
         <updated>2018-09-01T18:32:00.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://toshaojin.files.wordpress.com/2018/09/tumblr_pef8vk4qmi1r311ono1_1280.jpg" alt="" width="660" height="825" class="alignnone size-full wp-image-65" /><p>大海<br /><br>
-<a href="https://www.instagram.com/p/BnN_gu7Fxx8/?utm_source=ig_tumblr_share&amp;igshid=1fmfuo6yde2co" target="_blank">https://www.instagram.com/p/BnN_gu7Fxx8/?utm_source=ig_tumblr_share&amp;igshid=1fmfuo6yde2co</a></p></p>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[sanya]]></title>
@@ -102,9 +48,6 @@ isTop: false  //是否置顶
         <link href="https://manning-s.github.io/post/2018-08-23-sanya/">
         </link>
         <updated>2018-08-22T18:32:00.000Z</updated>
-        <content type="html"><![CDATA[<img src="https://toshaojin.files.wordpress.com/2018/08/tumblr_pdx6njltea1r311ono1_1280.jpg" alt="" width="660" height="495" class="alignnone size-full wp-image-83" />
-<img src="https://toshaojin.files.wordpress.com/2018/08/tumblr_pdwfwpghwf1r311ono1_1280.jpg" alt="" width="660" height="495" class="alignnone size-full wp-image-95" />
-<img src="https://toshaojin.files.wordpress.com/2018/08/tumblr_pdx6h8cgiq1r311ono1_1280.jpg" alt="" width="660" height="660" class="alignnone size-full wp-image-86" />]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[成长]]></title>
@@ -112,8 +55,6 @@ isTop: false  //是否置顶
         <link href="https://manning-s.github.io/post/2018-03-26-growup/">
         </link>
         <updated>2018-03-25T18:32:00.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://toshaojin.files.wordpress.com/2018/03/tumblr_p67c6blnfq1r311ono1_1280.jpg" alt="" width="660" height="660" class="alignnone size-full wp-image-99" /><p>长大后，你会成为怎样的你？</p></p>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[朋友]]></title>
@@ -121,8 +62,6 @@ isTop: false  //是否置顶
         <link href="https://manning-s.github.io/post/2018-02-06-108/">
         </link>
         <updated>2018-02-05T18:32:00.000Z</updated>
-        <content type="html"><![CDATA[<img src="https://toshaojin.files.wordpress.com/2018/02/tumblr_p3pk1m8h6j1r311ono1_1280.jpg" alt="" width="660" height="659" class="alignnone size-full wp-image-109" />
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[这里曾经记录了很多]]></title>
@@ -130,8 +69,6 @@ isTop: false  //是否置顶
         <link href="https://manning-s.github.io/post/2017-08-14-fish/">
         </link>
         <updated>2017-08-13T18:32:00.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://toshaojin.files.wordpress.com/2017/08/tumblr_ouo1lqgpba1r311ono1_1280.jpg" alt="" width="660" height="440" class="alignnone size-full wp-image-143" /><p>这里曾经记录了很多</p></p>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[旅游后遗症]]></title>
@@ -139,8 +76,6 @@ isTop: false  //是否置顶
         <link href="https://manning-s.github.io/post/2017-08-18/">
         </link>
         <updated>2017-08-13T18:32:00.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://toshaojin.files.wordpress.com/2017/08/tumblr_ouvlb2czku1r311ono1_1280.jpg" alt="" width="660" height="495" class="alignnone size-full wp-image-136" /><p>越南旅游后遗症</p></p>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[together]]></title>
@@ -148,7 +83,5 @@ isTop: false  //是否置顶
         <link href="https://manning-s.github.io/post/2017-08-12-160/">
         </link>
         <updated>2017-08-11T18:32:00.000Z</updated>
-        <content type="html"><![CDATA[<img src="https://toshaojin.files.wordpress.com/2017/08/tumblr_oujz7l6yew1r311ono1_1280.jpg" alt="" width="660" height="480" class="alignnone size-full wp-image-161" />
-]]></content>
     </entry>
 </feed>
