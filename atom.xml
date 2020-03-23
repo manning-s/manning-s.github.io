@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://manning-s.github.io</id>
     <title>Manning&apos;s Life</title>
-    <updated>2020-03-20T12:53:12.338Z</updated>
+    <updated>2020-03-23T02:56:38.974Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://manning-s.github.io"/>
     <link rel="self" href="https://manning-s.github.io/atom.xml"/>
@@ -122,6 +122,25 @@ isTop: false  //是否置顶
 ]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[朋友]]></title>
+        <id>https://manning-s.github.io/post/2020-3-10-myfriend/</id>
+        <link href="https://manning-s.github.io/post/2020-3-10-myfriend/">
+        </link>
+        <updated>2020-03-10T12:50:00.000Z</updated>
+        <summary type="html"><![CDATA[<h1 id="朋友">朋友</h1>
+<p>我家邻居有个男孩子叫张庭华，比我小两岁。我们的名字里都有“ting”，我是雷霆的霆，他是庭院的庭。所以，我们两家叫我“大ting”,是哥哥，叫他“小ting”,是弟弟。</p>
+]]></summary>
+        <content type="html"><![CDATA[<h1 id="朋友">朋友</h1>
+<p>我家邻居有个男孩子叫张庭华，比我小两岁。我们的名字里都有“ting”，我是雷霆的霆，他是庭院的庭。所以，我们两家叫我“大ting”,是哥哥，叫他“小ting”,是弟弟。</p>
+<!-- more -->
+<p>弟弟好胜心很强，做什么都很努力。我先学会的跳绳，弟弟一开始一直跳得比我慢，比跳绳的时候总是输给我。但弟弟每天都刻苦地练习跳绳，每天要跳好几回，渐渐地，弟弟越跳越多。现在我每分钟只能跳150下，弟弟居然能够跳到180下了!</p>
+<p>我学珠心算一年后，在做习题时，弟弟看我算得飞快，也报名开始学习珠心算了，每天都认真地完成珠心算作业，准确率很高。他说：“我一定会比“大ting”哥哥算得快的！”</p>
+<p>勤奋的弟弟就像和我在赛跑，一直拼命地追着我，要赶超我。我是哥哥，我也要发愤图强、好学不倦，保持住自己的领先优势。</p>
+<p>不论弟弟能不能跑过我，他永远都是我的好朋友。</p>
+<p>By Son</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Friends]]></title>
         <id>https://manning-s.github.io/post/2018-09-02-friends/</id>
         <link href="https://manning-s.github.io/post/2018-09-02-friends/">
@@ -167,15 +186,6 @@ isTop: false  //是否置顶
         </link>
         <updated>2018-02-05T18:32:00.000Z</updated>
         <content type="html"><![CDATA[<img src="https://toshaojin.files.wordpress.com/2018/02/tumblr_p3pk1m8h6j1r311ono1_1280.jpg" alt="" width="660" height="659" class="alignnone size-full wp-image-109" />
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[这里曾经记录了很多]]></title>
-        <id>https://manning-s.github.io/post/2017-08-14-fish/</id>
-        <link href="https://manning-s.github.io/post/2017-08-14-fish/">
-        </link>
-        <updated>2017-08-13T18:32:00.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://toshaojin.files.wordpress.com/2017/08/tumblr_ouo1lqgpba1r311ono1_1280.jpg" alt="" width="660" height="440" class="alignnone size-full wp-image-143" /><p>这里曾经记录了很多</p></p>
 ]]></content>
     </entry>
 </feed>
