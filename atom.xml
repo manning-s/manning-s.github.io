@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://manning-s.github.io</id>
     <title>Manning&apos;s Life</title>
-    <updated>2020-03-25T12:28:23.087Z</updated>
+    <updated>2020-03-28T13:17:06.409Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://manning-s.github.io"/>
     <link rel="self" href="https://manning-s.github.io/atom.xml"/>
@@ -10,6 +10,22 @@
     <logo>https://manning-s.github.io/images/avatar.png</logo>
     <icon>https://manning-s.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Manning&apos;s Life</rights>
+    <entry>
+        <title type="html"><![CDATA[我的好朋友]]></title>
+        <id>https://manning-s.github.io/post/2020-03-28-myfriend/</id>
+        <link href="https://manning-s.github.io/post/2020-03-28-myfriend/">
+        </link>
+        <updated>2020-03-28T12:50:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>诺诺姐姐是我的好朋友。她的头发又细又软，长得像柳条，身材瘦瘦的，以前个子还没有我高，现在不知道她怎么样了。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>诺诺姐姐是我的好朋友。她的头发又细又软，长得像柳条，身材瘦瘦的，以前个子还没有我高，现在不知道她怎么样了。</p>
+<!-- more -->
+<p>我们经常一起画画、一起搭积木、一起看电影……诺诺姐姐有很多新奇的玩具，所以，我经常到她家里去玩。<br>
+让我最难忘的，是我们一起玩3D画笔。3D画笔是两个小拇指粗细的笔，笔的尾端有个小洞，它的笔芯是一些像钢丝一样彩色的塑料线。3D画笔充满电之后，把这些彩色、特殊的笔芯插进笔尾的小圆洞里，笔头就会出来五颜六色的“奶油”，我们就可以用这些“奶油”在特殊的木板上作画了，更神奇的是可以画出立体的结构。姐姐画了三头蓝色和粉红色的大象，而我画了蓝色和黄色的蝴蝶。刚画完，这些“奶油”就变成了“动物饼干”，我们玩得开心极了。<br>
+我非常喜欢和姐姐玩，希望姐姐加强锻炼少生病，这样我们就可以经常一起玩了。<br>
+By Son</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[疫情下，出租人如何应对承租人减免租金要求？]]></title>
         <id>https://manning-s.github.io/post/2020-3-25-zulin/</id>
@@ -202,15 +218,5 @@ isTop: false  //是否置顶
         <content type="html"><![CDATA[<p><img src="https://toshaojin.files.wordpress.com/2018/09/tumblr_pef8vk4qmi1r311ono1_1280.jpg" alt="" width="660" height="825" class="alignnone size-full wp-image-65" /><p>大海<br /><br>
 <a href="https://www.instagram.com/p/BnN_gu7Fxx8/?utm_source=ig_tumblr_share&amp;igshid=1fmfuo6yde2co" target="_blank">https://www.instagram.com/p/BnN_gu7Fxx8/?utm_source=ig_tumblr_share&amp;igshid=1fmfuo6yde2co</a></p></p>
 ]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[sanya]]></title>
-        <id>https://manning-s.github.io/post/2018-08-23-sanya/</id>
-        <link href="https://manning-s.github.io/post/2018-08-23-sanya/">
-        </link>
-        <updated>2018-08-22T18:32:00.000Z</updated>
-        <content type="html"><![CDATA[<img src="https://toshaojin.files.wordpress.com/2018/08/tumblr_pdx6njltea1r311ono1_1280.jpg" alt="" width="660" height="495" class="alignnone size-full wp-image-83" />
-<img src="https://toshaojin.files.wordpress.com/2018/08/tumblr_pdwfwpghwf1r311ono1_1280.jpg" alt="" width="660" height="495" class="alignnone size-full wp-image-95" />
-<img src="https://toshaojin.files.wordpress.com/2018/08/tumblr_pdx6h8cgiq1r311ono1_1280.jpg" alt="" width="660" height="660" class="alignnone size-full wp-image-86" />]]></content>
     </entry>
 </feed>
