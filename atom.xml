@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://manning-s.github.io</id>
     <title>Manning&apos;s Life</title>
-    <updated>2020-04-17T02:59:19.214Z</updated>
+    <updated>2020-04-21T14:13:00.923Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://manning-s.github.io"/>
     <link rel="self" href="https://manning-s.github.io/atom.xml"/>
@@ -10,6 +10,95 @@
     <logo>https://manning-s.github.io/images/avatar.png</logo>
     <icon>https://manning-s.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Manning&apos;s Life</rights>
+    <entry>
+        <title type="html"><![CDATA[继续折腾博客]]></title>
+        <id>https://manning-s.github.io/post/2020-04-21-new/</id>
+        <link href="https://manning-s.github.io/post/2020-04-21-new/">
+        </link>
+        <updated>2020-04-21T12:50:00.000Z</updated>
+        <summary type="html"><![CDATA[<h1 id="为什么折腾">为什么折腾？</h1>
+<p>没多久之前，刚折腾了新鲜的玩意儿──Gridea，利用这个软件搭建了Github Page。</p>
+<p>搭建完之后，又图新鲜买了个域名耍耍。之前，都是利用互联网资源蹭免费的域名玩。</p>
+]]></summary>
+        <content type="html"><![CDATA[<h1 id="为什么折腾">为什么折腾？</h1>
+<p>没多久之前，刚折腾了新鲜的玩意儿──Gridea，利用这个软件搭建了Github Page。</p>
+<p>搭建完之后，又图新鲜买了个域名耍耍。之前，都是利用互联网资源蹭免费的域名玩。</p>
+<!-- more -->
+<p>再然后呢？折腾完没几天，在博客也没输出些实质内容，就又开始瞎折腾了，折腾利用Hugo搭建博客。在遇到Gridea之前，搜索🔍到Hexo、Hugo等教程类文章。但是，苦于各类代码，看到头疼，就望而却步。</p>
+<p>但是，为什么现在反而又要尝试折腾了？因为，无意间发现很多Hugo搭建的博客，<s>皮肤</s> theme真漂亮。可能Gridea的theme不仅仅局限于官方的主题市场，但是受限于自己的技术能力，学习成本显然比较高，暂时无法利用其他资源去更换新皮肤，虽然现在用的<code>Fly</code>还是不错的。</p>
+<p>另一方面，还是有兴趣去接触一下这类好玩的东西，毕竟兴趣是做好事情的根本动力。</p>
+<h1 id="怎么折腾">怎么折腾？</h1>
+<p>##起步</p>
+<p>在开始之前，Google了很多技术类文章，初步了解了一下大致方法，感觉还是能够驾驭操作的。主要参考的文章就是 <a href="https://mogeko.me/2018/018/">使用 Hugo + GitHub Pages 搭建个人博客</a>，基本上按照这个方法可以顺利完成搭建。当初也是因为看中这个博客的<s>皮肤</s> theme，才起了念头。</p>
+<h2 id="意外">意外</h2>
+<h3 id="问题1">问题1</h3>
+<p>在开始搭建之初，根本没有注意到一个GitHub账户只能搭建一个pages的问题。因此，一开始就在利用之前的Github账户新开了一个仓库，但是hugo渲染之后发现跟Gridea的站点冲突了，而且无法直接用*.github.io直接访问。但是，以之前搭建Gridea的经验，操作程序应该没问题。所以怀疑是不是Github的问题，万能Google告诉我，你蒙对了。</p>
+<p>于是，我的解决办法是，重新开一个Github账户。</p>
+<h3 id="问题2">问题2</h3>
+<p>在解决了问题1之后，按照教程，安装hugo、初始化、安装主题、新建文章、配置，然后卡在了发布阶段。</p>
+<pre><code>git remote add origin https://github.com/[Github 用户名]/[Github 用户名].github.io.git
+</code></pre>
+<p>在用上述命令将本地库关联到远程库时，发生了错误。提示<code>ERROR: Permission to XXX.git denied to YYY</code>。然后，在这个步骤卡了很久，Google了很多，最后发现是因为SSH密钥设置问题。因为之前可能已经用自己的电脑设置过GitHub，所以这台电脑只认之前的Github账户，不认我新设的账户。解决办法就是新设一个密钥，然后绑定到新设Github账户，教程在这里：<a href="https://www.jianshu.com/p/12badb7e6c10">Git 最著名报错 “ERROR: Permission to XXX.git denied to user”终极解决方案</a>。</p>
+<p>解决了这个问题之后，就可以正常将本地库同步至远程库，完成搭建。</p>
+<h3 id="问题3">问题3</h3>
+<p>博客设置当中的主要问题有：头像图标、浏览器图标以及文章分类问题。</p>
+<p>所用的 <a href="https://github.com/liuzc/leaveit">leaveit</a>主题，头部<code>Blog</code>栏出现404，无法显示我已经发布的文章。最后的症结解决问题是，在文章目录新建posts文件夹，新建的文章放到这个文件夹下，那么发布之后，文章才会出现在<code>Blog</code>这一栏。</p>
+<h3 id="问题4">问题4</h3>
+<p>在搭建完之后，发现发布文章每次都要输入很多命令，有点繁琐。是不是有自动化的发布工具？万能Google帮助我。发现很多的第三方工具，还有GitHub Action。但是，教程显示都是在新建博客之前，设置好一系列的自动化流程，没有发现在现有博客基础上去构建，于是放弃了使用Github Action自动化部署。</p>
+<p>最终老实的用了脚本，方法：</p>
+<ol>
+<li>
+<p>在本地库根目录下新建txt文档；</p>
+</li>
+<li>
+<p>将以下代码Copy：</p>
+<pre><code>#!/bin/sh
+
+# If a command fails then the deploy stops
+set -e
+
+printf &quot;\033[0;32mDeploying updates to GitHub...\033[0m\n&quot;
+
+# Build the project.
+hugo # if using a theme, replace with `hugo -t &lt;YOURTHEME&gt;`
+
+# Go To Public folder
+cd public
+
+# Add changes to git.
+git add .
+
+# Commit changes.
+msg=&quot;rebuilding site $(date)&quot;
+if [ -n &quot;$*&quot; ]; then
+    msg=&quot;$*&quot;
+fi
+git commit -m &quot;$msg&quot;
+
+# Push source and build repos.
+git push origin master
+
+cd ..
+</code></pre>
+</li>
+<li>
+<p>重命名txt文档为<code>deploy.sh</code></p>
+</li>
+<li>
+<p>使用<code>chmod +x deploy.sh</code>使它可执行</p>
+</li>
+<li>
+<p>新建文章，通过<code>hugo new</code>或直接将md文档放入文件夹</p>
+</li>
+<li>
+<p>输入<code>./deploy.sh</code></p>
+</li>
+</ol>
+<p>相比较之前，可以少输入一些命令。</p>
+<h1 id="接下来">接下来</h1>
+<p>完成初步搭建之后，觉得还是学到一些知识或是方法。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[疫情后期的工作生活]]></title>
         <id>https://manning-s.github.io/post/2020-04-17-life/</id>
@@ -213,16 +302,6 @@ isTop: false  //是否置顶
 <p>勤奋的弟弟就像和我在赛跑，一直拼命地追着我，要赶超我。我是哥哥，我也要发愤图强、好学不倦，保持住自己的领先优势。</p>
 <p>不论弟弟能不能跑过我，他永远都是我的好朋友。</p>
 <p>By Son</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Friends]]></title>
-        <id>https://manning-s.github.io/post/2018-09-02-friends/</id>
-        <link href="https://manning-s.github.io/post/2018-09-02-friends/">
-        </link>
-        <updated>2018-09-01T18:32:00.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://toshaojin.files.wordpress.com/2018/09/tumblr_peexa6pqp21r311ono1_1280.jpg" alt="" width="660" height="495" class="alignnone size-full wp-image-68" /><p>两小无猜<br /><br>
-<a href="https://www.instagram.com/p/BnNi1ztlv4s/?utm_source=ig_tumblr_share&amp;igshid=x6qgp0dwabwb" target="_blank">https://www.instagram.com/p/BnNi1ztlv4s/?utm_source=ig_tumblr_share&amp;igshid=x6qgp0dwabwb</a></p></p>
 ]]></content>
     </entry>
 </feed>
