@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://manning-s.github.io</id>
     <title>Manning&apos;s Life</title>
-    <updated>2020-04-22T03:31:48.553Z</updated>
+    <updated>2020-04-26T09:00:05.957Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://manning-s.github.io"/>
     <link rel="self" href="https://manning-s.github.io/atom.xml"/>
@@ -10,6 +10,109 @@
     <logo>https://manning-s.github.io/images/avatar.png</logo>
     <icon>https://manning-s.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Manning&apos;s Life</rights>
+    <entry>
+        <title type="html"><![CDATA[免费域名]]></title>
+        <id>https://manning-s.github.io/post/2020-04-26/</id>
+        <link href="https://manning-s.github.io/post/2020-04-26/">
+        </link>
+        <updated>2020-04-26T08:50:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>因为搞了两个GitHub Page，第一个域名已经绑定在Gridea建的站，新站还没有域名。于是想着是否搞一个免费域名应急一下，一年期限也好。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>因为搞了两个GitHub Page，第一个域名已经绑定在Gridea建的站，新站还没有域名。于是想着是否搞一个免费域名应急一下，一年期限也好。</p>
+<!--more-->
+<p>于是又找回了<a href="freenom.com">Freenome</a>，结果搜索后显示域名有效，结果点击后又显示不可用。Google了一下，发现了鸡贼之处，得用美国IP才可以，可能之前已经被伟大的祖国同胞撸疼了。</p>
+<p>域名注册方法：</p>
+<ol>
+<li>使用美国IP登录网站；</li>
+<li>在账户信息中填写美国地址，网上一搜一大把；</li>
+<li>将网站语言改为英语；</li>
+<li>搜索域名，购买即可。默认3个月，可以选择12个月免费。</li>
+</ol>
+<p>注册完域名后，到后台设置一下CNAME、A记录类型。再到GitHub Page仓库的设置界面填入域名，勾选强制HTTPS。</p>
+<p>设置完之后，等待生效即可。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[记录一下折腾过程中的一些代码]]></title>
+        <id>https://manning-s.github.io/post/2020-04-22/</id>
+        <link href="https://manning-s.github.io/post/2020-04-22/">
+        </link>
+        <updated>2020-04-22T01:50:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>在这次折腾Hugo过程中，写到了一些命令，还是有必要备份一下，万一以后还会用到，就不用撞墙了。而且平时部署Hugo说不定还是频繁使用。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>在这次折腾Hugo过程中，写到了一些命令，还是有必要备份一下，万一以后还会用到，就不用撞墙了。而且平时部署Hugo说不定还是频繁使用。</p>
+<!--more-->
+<h2 id="文章发布">文章发布</h2>
+<pre><code class="language-plaintext">git add -A
+git commit -m &quot;[修订]&quot;
+git push -u origin master
+</code></pre>
+<h2 id="删除文件">删除文件</h2>
+<p>1.克隆远程仓库到本地库。</p>
+<pre><code class="language-plaintext">git clone git@github.com:[用户名]/[仓库名].git
+</code></pre>
+<p>2.对需要删除的文件、文件夹进行操作:</p>
+<pre><code class="language-plaintext">git rm test.txt # 删除文件
+git rm -r test # 删除文件夹
+</code></pre>
+<p>3.提交修改</p>
+<pre><code class="language-plaintext">git commit -m &quot;随便填写&quot;
+</code></pre>
+<p>4.将修改提交到远程仓库</p>
+<pre><code class="language-plaintext">git push origin
+</code></pre>
+<h2 id="密钥设置">密钥设置</h2>
+<p>解决<code>ERROR: Permission to xxxxxx/xxxxxx.github.io.git denied to xxxxxx.</code>报错问题</p>
+<ol>
+<li>
+<p>终端输入<code>ls ~/.ssh/</code>查看当前已由的密钥，也可以忽略，直接为自己多个GitHub设定多个密钥。</p>
+</li>
+<li>
+<p><code>cd ~/.ssh/</code>进入ssh根目录。</p>
+</li>
+<li>
+<p>创建新的密钥</p>
+<p><code>ssh-keygen -t rsa -C '根据自己需要设定第一个邮箱地址' -f ~/.ssh/github_[自己的id]</code></p>
+<p><code>ssh-keygen -t rsa -C '根据自己需要设定第二个邮箱地址' -f ~/.ssh/github_[自己的另一个id]</code></p>
+<p>这样就新设了两个密钥。ssh根目录下就会新生成两对公钥、私钥文档。</p>
+</li>
+<li>
+<p>在ssh根目录下新建<code>config</code>文档，然后填入：</p>
+<pre><code class="language-plaintext"># github第一个密钥
+Host github.com.one #可以自定义
+HostName github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/[填入第一个的密钥名称]
+# github第二个密钥
+Host github.com.two #可以自定义
+HostName github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/[填入第二个的密钥名称]
+</code></pre>
+</li>
+<li>
+<p>然后分别进入两个GitHub账户──设置，将上述两个公钥分别复制粘贴到SSH Keys中。</p>
+</li>
+<li>
+<p>测试</p>
+<pre><code class="language-plaintext">ssh -T git@github.com.one
+ssh -T git@github.com.two
+</code></pre>
+<p>如果出现以下信息，说明成功了。</p>
+<pre><code class="language-plaintext">Hi [你的GitHub用户名]! You've successfully authenticated, but GitHub does not provide shell access.
+</code></pre>
+</li>
+<li>
+<p>替换</p>
+<pre><code class="language-plaintext">git remote set-url origin git@github.com.one:[用户名]/[仓库名].git
+</code></pre>
+<p>或</p>
+<pre><code class="language-plaintext">git remote set-url origin git@github.com.two:[用户名]/[仓库名].git
+</code></pre>
+</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[继续折腾博客]]></title>
         <id>https://manning-s.github.io/post/2020-04-21-new/</id>
@@ -243,65 +346,6 @@ By Son</p>
 <p><strong>有!</strong></p>
 <p><strong>把键盘晾一会儿，或吹风机水一下，水泡会消失。</strong></p>
 <p>TMD自愈型。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[再一次尝试博客]]></title>
-        <id>https://manning-s.github.io/post/2020-03-11githubpage/</id>
-        <link href="https://manning-s.github.io/post/2020-03-11githubpage/">
-        </link>
-        <updated>2020-03-11T12:40:00.000Z</updated>
-        <content type="html"><![CDATA[<!-- more -->
-<h1 id="历史">历史</h1>
-<p>很早之前就尝试过博客，但是自己是个钢铁工科男，写不了生活。</p>
-<p>模糊记得曾经玩过WordPress、Google Blogger，还利用免费的VPS搭建过WordPress，反正那时有的是时间、各种折腾着玩。后来，这些都是荒废的，因为不习惯于码字长文，于是经常在玩的也就是Twitter、Instagram、Foursquare等社交类app，以及可以串联这些服务的Tumblr。</p>
-<p>近期觉得Tumblr此前被廉价出售，会不会服务停摆。于是，就想着把Tumblr的文章导出来。</p>
-<h1 id="gridea-和-github-page">Gridea 和 GitHub Page</h1>
-<p>很早看到利用GitHub Page来创建个人博客的各类技术类文章，但每每看到命令行操作，就望而却步，所以一直没尝试。</p>
-<p>最近发现一个软件，很适合我这种小白──<a href="https://gridea.dev/">Gridea</a>。官网有快速上手指引文档，非常方便。当然还有其他人写的一些指引文章：</p>
-<ul>
-<li><a href="https://sspai.com/post/54212">Gridea 让你更方便地管理 Github Pages</a></li>
-<li><a href="https://zhuanlan.zhihu.com/p/71681116">Gridea 上手教程——小白也可以用的 GitHub Pages 搭建工具</a></li>
-</ul>
-<p>配置完成后，就可以利用Gridea来发布文章了。</p>
-<figure data-type="image" tabindex="1"><img src="https://i.loli.net/2020/03/12/X5Eb9qTxsCMo8tf.png" alt="" loading="lazy"></figure>
-<h1 id="迁移">迁移</h1>
-<p>因为之前折腾过好几个博客，搭建还算顺利。每次折腾都会涉及到文章迁移问题，虽然有实质内容的文章其实并不多，毕竟文字功底较差，没东西写得出来。</p>
-<p>目前大部分记录日常生活的内容都留在Tumblr，包括一些通过IFTTT、foursquare、Twitter、Instagram等app同步的内容。怎么将这些内容方便的迁移到GitHub Page是一个问题。</p>
-<p>通过谷歌搜索，发现能从Tumblr直接迁移GitHub Page的工具几乎没有，难道要一个个手动导入？考虑到Gridea通过将MarkDown文档直接复制到posts文件夹可以直接导入文章。那么Tumblr是否能将文章导出为MarkDown文档呢？然而不可以，Tumblr导出的是xml格式的备份。如果Tumblr不行，Tumblr──Wordpress──MarkDown路径是否可行呢？可行，但是Wordpress需要安装专用插件，而安装插件需要收费。最后，兜兜转转，找到一个工具，xml转MarkDown的工具<a href="https://github.com/theaob/wpXml2Jekyll/releases">wpXml2Jekyll</a>。</p>
-<p>将转换完成后的MarkDown文档复制至Gridea的posts文件夹后，重新启动Gridea发现首页会一片空白、原有设置会全部消失。琢磨了很久应该是导入文档不匹配的问题，最终还是需要手动一个个修改MarkDown文档的信息头来解决这个问题，必须按照Gridea的MarkDown文档来。</p>
-<pre><code>title: '再一次尝试博客' //文章标的
-date: 2020-03-11 20:40:00 //文章日期
-tags: [博客,Github page,Gridea] //Gridea只支持tag
-published: true //是否发布
-hideInList: false //是否在列表中隐藏
-feature: 
-isTop: false  //是否置顶
-</code></pre>
-<p>所以，一个个手动用Typora修改文档，然后顺便回顾了以下以前的记录，也是好玩的，顺便把一些无关的Twitter推文和Instagram图片删除了。修改完成后，再将文档复制到posts文件夹后，重启Gridea就正常了。</p>
-<h1 id="域名">域名</h1>
-<p>是否要买一个域名？这是个问题。虽然目前自带域名*.github.io这个域名已经够短，但是看起来总有点别扭。一直想要个自己的域名，可如果发挥不了它的作用也有点浪费吧？之前有用过免费的tk域名，貌似也不错。</p>
-<p>在<a href="https://www.namesilo.com/">namesilo</a>找了几个域名，com太贵，me不错。</p>
-<p>有句话，免费的往往是最贵的。之前用过一个tk域名，后来发现被别人注册了，域名商能随时收回免费域名。所以在写这篇文章的过程中，最终在<a href="https://www.namesilo.com/">namesilo</a>入手了<strong>shaojin.me</strong>域名。中间，设置域名搞了很久，很久没玩一下子搞不清怎么设置后台了。</p>
-<h1 id="能坚持多久">能坚持多久？</h1>
-<p>鬼知道能坚持多久!说不定搞定这些东西，发现学到了什么，而写文章从来不是什么重点，第二天就束之高阁。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[朋友]]></title>
-        <id>https://manning-s.github.io/post/2020-3-10-myfriend/</id>
-        <link href="https://manning-s.github.io/post/2020-3-10-myfriend/">
-        </link>
-        <updated>2020-03-10T12:50:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>我家邻居有个男孩子叫张庭华，比我小两岁。我们的名字里都有“ting”，我是雷霆的霆，他是庭院的庭。所以，我们两家叫我“大ting”,是哥哥，叫他“小ting”,是弟弟。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>我家邻居有个男孩子叫张庭华，比我小两岁。我们的名字里都有“ting”，我是雷霆的霆，他是庭院的庭。所以，我们两家叫我“大ting”,是哥哥，叫他“小ting”,是弟弟。</p>
-<!-- more -->
-<p>弟弟好胜心很强，做什么都很努力。我先学会的跳绳，弟弟一开始一直跳得比我慢，比跳绳的时候总是输给我。但弟弟每天都刻苦地练习跳绳，每天要跳好几回，渐渐地，弟弟越跳越多。现在我每分钟只能跳150下，弟弟居然能够跳到180下了!</p>
-<p>我学珠心算一年后，在做习题时，弟弟看我算得飞快，也报名开始学习珠心算了，每天都认真地完成珠心算作业，准确率很高。他说：“我一定会比“大ting”哥哥算得快的！”</p>
-<p>勤奋的弟弟就像和我在赛跑，一直拼命地追着我，要赶超我。我是哥哥，我也要发愤图强、好学不倦，保持住自己的领先优势。</p>
-<p>不论弟弟能不能跑过我，他永远都是我的好朋友。</p>
-<p>By Son</p>
 ]]></content>
     </entry>
 </feed>
