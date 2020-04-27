@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://manning-s.github.io</id>
     <title>Manning&apos;s Life</title>
-    <updated>2020-04-26T09:00:05.957Z</updated>
+    <updated>2020-04-27T07:37:46.504Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://manning-s.github.io"/>
     <link rel="self" href="https://manning-s.github.io/atom.xml"/>
@@ -20,7 +20,7 @@
 ]]></summary>
         <content type="html"><![CDATA[<p>因为搞了两个GitHub Page，第一个域名已经绑定在Gridea建的站，新站还没有域名。于是想着是否搞一个免费域名应急一下，一年期限也好。</p>
 <!--more-->
-<p>于是又找回了<a href="freenom.com">Freenome</a>，结果搜索后显示域名有效，结果点击后又显示不可用。Google了一下，发现了鸡贼之处，得用美国IP才可以，可能之前已经被伟大的祖国同胞撸疼了。</p>
+<p>于是又找回了<a href="https://freenom.com">Freenome</a>，结果搜索后显示域名有效，结果点击后又显示不可用。Google了一下，发现了鸡贼之处，得用美国IP才可以，可能之前已经被伟大的祖国同胞撸疼了。</p>
 <p>域名注册方法：</p>
 <ol>
 <li>使用美国IP登录网站；</li>
