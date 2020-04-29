@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://manning-s.github.io</id>
     <title>Manning&apos;s Life</title>
-    <updated>2020-04-27T07:37:46.504Z</updated>
+    <updated>2020-04-29T12:04:04.716Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://manning-s.github.io"/>
     <link rel="self" href="https://manning-s.github.io/atom.xml"/>
@@ -10,6 +10,22 @@
     <logo>https://manning-s.github.io/images/avatar.png</logo>
     <icon>https://manning-s.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Manning&apos;s Life</rights>
+    <entry>
+        <title type="html"><![CDATA[开学啦]]></title>
+        <id>https://manning-s.github.io/post/20200429/</id>
+        <link href="https://manning-s.github.io/post/20200429/">
+        </link>
+        <updated>2020-04-29T12:03:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>2020年4月26日，小子二年级下学期终于开学了，赶在五一节前。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>2020年4月26日，小子二年级下学期终于开学了，赶在五一节前。</p>
+<!-- more -->
+<p>学校为了开学，也做了充分的准备，要求每个学生都要在书包内准备防疫包，内装口罩、洗手液、湿巾纸等。上课都要求佩戴口罩，仅午餐、体育课等特殊情况方可取下口罩。</p>
+<p>上学前门口统一测量体温，上下学要求家长尽量安排私家车等接送，避免公共交通方式。</p>
+<p>学生的防疫绝对重要，否则影响面实在是太广了，首先冲击家庭生活，其次是工作单位。目前，所在市的防疫工作相对稳定，至少表面上如此。</p>
+<p>上学至今四天，目前看来都还算正常，学业也开始慢慢恢复。但是想到七月初就要放暑假，这才读了两个月就又要小恶魔👿回归，想想就头大。本来还想着，这次因为疫情，暑假会缩短呢，结果真是“喜出望外”。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[免费域名]]></title>
         <id>https://manning-s.github.io/post/2020-04-26/</id>
@@ -322,30 +338,6 @@ By Son</p>
 </blockquote>
 <p>按照上述方法，依样画葫芦，为自己增加了一些词库，包括了<code>法律 成语俗语 医学词汇大全 建筑词汇大全 房地产词汇大全 财务会计 建筑词汇 计算机词汇大全</code></p>
 <figure data-type="image" tabindex="1"><img src="https://i.loli.net/2020/03/18/AKo6Lg5QyV8t47M.png" alt="rime-law" loading="lazy"></figure>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[遭殃的MacBook Pro键盘]]></title>
-        <id>https://manning-s.github.io/post/2020-03-16-macbook/</id>
-        <link href="https://manning-s.github.io/post/2020-03-16-macbook/">
-        </link>
-        <updated>2020-03-16T12:50:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>今天打开MacBook，发现部分键盘上都“长”出了一个个“泡泡”。第一反应是不是自己最近用什么腐蚀性液体擦过？</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>今天打开MacBook，发现部分键盘上都“长”出了一个个“泡泡”。第一反应是不是自己最近用什么腐蚀性液体擦过？</p>
-<!-- more -->
-<p>但是印象中也只有用湿巾纸擦过键盘⌨️，为了去手指油污，这总不至于腐蚀吧？</p>
-<p>于是，Google了一下，发现都没有这个质量瑕疵问题。唯一的找到是豆瓣上的<a href="https://www.douban.com/group/topic/105776693/">《百思不得其解：Macbook送修后键盘起泡》</a>，作者的键盘症状跟我的一毛一样，而正好我也之前为了修屏幕去过天才吧待了一周。难道真的是因为维修造成的？</p>
-<p>直到看了这个答复</p>
-<blockquote>
-<p>我的也这样，手湿着打字，没擦干就合上屏幕了，早上起来就这样了，哭了</p>
-</blockquote>
-<p>我突然想起来，前次合起来的时候，为了保护屏幕，在键盘上盖了眼镜布，而眼镜布放在桌上有点弄湿了。恍然大悟!真的是，弄巧成拙。</p>
-<p>而我因为一开始看到症状以为是什么脏东西，使劲用指甲扣了一下，还真抠出“水”，结果把表面的漆弄坏了，导致有几个键非常难看。</p>
-<p>有什么解决办法吗？</p>
-<p><strong>有!</strong></p>
-<p><strong>把键盘晾一会儿，或吹风机水一下，水泡会消失。</strong></p>
-<p>TMD自愈型。</p>
 ]]></content>
     </entry>
 </feed>
