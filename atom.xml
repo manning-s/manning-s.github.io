@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://manning-s.github.io</id>
     <title>Manning&apos;s Life</title>
-    <updated>2020-05-08T07:11:55.174Z</updated>
+    <updated>2020-05-12T10:26:46.920Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://manning-s.github.io"/>
     <link rel="self" href="https://manning-s.github.io/atom.xml"/>
@@ -10,6 +10,25 @@
     <logo>https://manning-s.github.io/images/avatar.png</logo>
     <icon>https://manning-s.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Manning&apos;s Life</rights>
+    <entry>
+        <title type="html"><![CDATA[折腾域名]]></title>
+        <id>https://manning-s.github.io/post/20200512/</id>
+        <link href="https://manning-s.github.io/post/20200512/">
+        </link>
+        <updated>2020-05-12T09:50:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>一直以为一个域名只能绑定一个服务，无论有多少个子域名，结果发现，原来可以绑定多个GitHub Page。</p>
+<p>原来的域名<a href="https://shaojin.me">shaojin.me</a>是在<a href="https://https://www.namesilo.com/">Namesilo</a>购买，使用默认DNS服务。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>一直以为一个域名只能绑定一个服务，无论有多少个子域名，结果发现，原来可以绑定多个GitHub Page。</p>
+<p>原来的域名<a href="https://shaojin.me">shaojin.me</a>是在<a href="https://https://www.namesilo.com/">Namesilo</a>购买，使用默认DNS服务。</p>
+<!-- more -->
+<p>之前，开设了两个GitHub Page，一个用于Gridea，一个用Hugo搭建。因为就买了一个域名，就只绑定到了Gridea。为了自定义Hugo的域名，单独申请了一个免费域名。突然想起来，是否可以为<a href="https://shaojin.me">shaojin.me</a>创建一个子域名用来绑定另一个Page服务，顺便将域名解析服务转移到Cloudflare。</p>
+<p>注册完Cloudflare后，输入站点域名，Cloudflare会自动进行扫描，然后给出两个DNS 服务器名称，直接到<a href="https://https://www.namesilo.com/">Namesilo</a>域名管理后台进行更改，然后等待生效就可以。</p>
+<p>生效后，注意关闭Cloudflare的CDN服务，否则站点显示总存在问题，关闭后就正常了。</p>
+<p>然后，添加CNAME<code>blog.shaojin.me</code>这个子域名到Gridea关联的仓库，添加CNAME<code>shaojin.me</code>到Hugo的仓库。</p>
+<p>完美!</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[成长的烦恼]]></title>
         <id>https://manning-s.github.io/post/20200504/</id>
@@ -324,23 +343,6 @@ By Son</p>
 <h1 id="四-商业角度下的租金减免协商考量">四、商业角度下的租金减免协商考量</h1>
 <p>本次疫情对于酒店、餐饮、住宿的冲击显然是非常大的，该影响已非正常商业风险预估范围内，因此承租人提出合理的租金减免及延长租期的请求，也是合情合理的。</p>
 <p>作为出租人，完全不顾疫情影响，不适当调整原合同关于疫情期间租金或租期，似乎也违公平合理。在政府部门明确发文，指导企业适当减免相应费用的大背景下，建议出租人适当调整租金。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[我的爷爷]]></title>
-        <id>https://manning-s.github.io/post/2020-03-21-mygrandpa/</id>
-        <link href="https://manning-s.github.io/post/2020-03-21-mygrandpa/">
-        </link>
-        <updated>2020-03-21T12:50:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>我的爷爷个子不高，但身材很匀称，脸膛晒得黑黑的。爷爷的话不多，但每天都可以看到他忙碌的身影。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>我的爷爷个子不高，但身材很匀称，脸膛晒得黑黑的。爷爷的话不多，但每天都可以看到他忙碌的身影。</p>
-<!-- more -->
-<p>我喜欢喝果汁，他总会给我做鲜榨的。爷爷会仔细地把水果洗干净、削皮、切块、用榨汁机榨出甜津津的果汁。爷爷说：“外面的饮料可能有色素，自己榨的又好喝又健康。”他会做的饮料可多了，比如西瓜汁、苹果汁、苹果雪梨汁，都是我爱喝的。</p>
-<p>爷爷开辟了一块菜地，地里种了玉米、青菜、 萝卜。没有成熟的时候，爷爷会弯着腰，给蔬菜浇水、施肥；收割的时候，他开心地把新鲜的蔬菜采摘下来，对我说：“这是你喜欢吃的，晚上多吃点吧！”爷爷种的菜特别得美味。</p>
-<p>我常常能看见爷爷拖地的背影，洗碗的背影，扛米上楼的背影。爷爷像只勤劳的蚂蚁，永不停歇地为我们家忙碌着。</p>
-<p>我爱我的爷爷，我也要帮爷爷做力所能及的事情。</p>
-<p>By Son</p>
 ]]></content>
     </entry>
 </feed>

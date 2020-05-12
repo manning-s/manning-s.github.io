@@ -5,7 +5,7 @@
     
 <meta charset="utf-8" >
 
-<title>小子的粮仓 | Manning&#39;s Life</title>
+<title>折腾域名 | Manning&#39;s Life</title>
 <meta name="description" content="点滴生活">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -80,22 +80,39 @@
       <div class="content-container">
         <div class="post-detail">
           
-          <h2 class="post-title">小子的粮仓</h2>
+          <h2 class="post-title">折腾域名</h2>
           <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2012-06-03</span>
+            <span><i class="icon-calendar-outline"></i> 2020-05-12</span>
+            
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://manning-s.github.io/tag/H5u5ffrck/">
+                    域名，博客
+                    
+                  </a>
+                
+              </span>
             
           </div>
           <div class="post-content">
-            <figure data-type="image" tabindex="1"><img src="https://toshaojin.files.wordpress.com/2012/06/tumblr_m519hshyl21r311ono1_640.jpg" alt="小子的粮仓＂谁知瓶中奶，滴滴不易来＂" loading="lazy"></figure>
+            <p>一直以为一个域名只能绑定一个服务，无论有多少个子域名，结果发现，原来可以绑定多个GitHub Page。</p>
+<p>原来的域名<a href="https://shaojin.me">shaojin.me</a>是在<a href="https://https://www.namesilo.com/">Namesilo</a>购买，使用默认DNS服务。</p>
+<!-- more -->
+<p>之前，开设了两个GitHub Page，一个用于Gridea，一个用Hugo搭建。因为就买了一个域名，就只绑定到了Gridea。为了自定义Hugo的域名，单独申请了一个免费域名。突然想起来，是否可以为<a href="https://shaojin.me">shaojin.me</a>创建一个子域名用来绑定另一个Page服务，顺便将域名解析服务转移到Cloudflare。</p>
+<p>注册完Cloudflare后，输入站点域名，Cloudflare会自动进行扫描，然后给出两个DNS 服务器名称，直接到<a href="https://https://www.namesilo.com/">Namesilo</a>域名管理后台进行更改，然后等待生效就可以。</p>
+<p>生效后，注意关闭Cloudflare的CDN服务，否则站点显示总存在问题，关闭后就正常了。</p>
+<p>然后，添加CNAME<code>blog.shaojin.me</code>这个子域名到Gridea关联的仓库，添加CNAME<code>shaojin.me</code>到Hugo的仓库。</p>
+<p>完美!</p>
 
           </div>
         </div>
 
         
           <div class="next-post">
-            <a class="purple-link" href="https://manning-s.github.io/post/2012-05-03-momson/">
+            <a class="purple-link" href="https://manning-s.github.io/post/20200504/">
               <h3 class="post-title">
-                下一篇：娘俩好
+                下一篇：成长的烦恼
               </h3>
             </a>
           </div>
